@@ -1,0 +1,22 @@
+extends layout
+
+block header
+  script(src='javascripts/tictac.js')
+
+block content
+  h2 TICTACTOE GAME
+  #playfield
+    p are you ready for this
+    table
+      tr
+        td.cell#cell00 1
+        td.cell#cell01 2
+        td.cell#cell02 3
+      tr
+        td.cell#cell10 4
+        td.cell#cell11 5
+        td.cell#cell12 6
+      tr
+        td.cell#cell20 7
+        td.cell#cell21 8
+        td.cell#cell22 9
